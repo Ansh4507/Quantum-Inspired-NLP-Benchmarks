@@ -41,8 +41,11 @@ A novel architecture that moves away from vector geometry entirely.
 * **NLP:** Hugging Face Transformers (BERT)
 * **Data Processing:** Pandas, Scikit-Learn
 
-## 📂 Dataset
-The model was trained on a balanced dataset of **2,400 technical questions** across 8 domains (Computer Networks, OS, Mathematics, etc.).
+## 👏 Acknowledgements & Credits
+This project relies on high-quality data and foundational baselines.
+
+* **Dataset:** [GATE CSE Question Classification Dataset](https://www.kaggle.com/datasets/sakshi2409/gate-cse-question-classification-dataset/data) on Kaggle.
+* **Sakshi Sahu:** Special thanks to **Sakshi Sahu** for curating this dataset and for her base work on classical embeddings. Her original experimentation established the classical baselines that allowed us to rigorously benchmark our quantum-inspired approaches.
 
 ## 🚀 How to Run
 1. Open the `.ipynb` file in Google Colab.
